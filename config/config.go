@@ -1,8 +1,6 @@
 package config
 
 import (
-	"errors"
-
 	"gorm.io/gorm"
 )
 
@@ -11,7 +9,6 @@ var (
 )
 
 func Init() error {
-	return errors.New("fake error")
 	return nil
 }
 

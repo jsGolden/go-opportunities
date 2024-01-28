@@ -15,9 +15,6 @@ func main() {
 	err := config.Init()
 	if err != nil {
 		logger.Errorf("config initialization error: %v", err)
-		logger.Infof("config initialization error: %v", err)
-		logger.Debugf("config initialization error: %v", err)
-		logger.Warningf("config initialization error: %v", err)
 		return
 	}
 	router.Initialize()
